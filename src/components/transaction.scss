@@ -1,0 +1,11 @@
+.transaction {
+  border: 1px solid white;
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

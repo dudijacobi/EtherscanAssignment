@@ -1,0 +1,31 @@
+.app {
+  height: 100%;
+  width: 100%;
+  background-color: #212124;
+  color: white;
+  font-size: 13px;
+
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+
+    .title {
+      display: block;
+      text-align: center;
+      font-size: 30px;
+      margin: 25px 0;
+    }
+
+    .input {
+      outline: none;
+      margin-bottom: 5px;
+
+      &.not-valid {
+        border-color: red;
+      }
+    }
+  }
+}
